@@ -3,6 +3,12 @@
 <head>
 	<title>Anton's links</title>
 	<style type="text/css">
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-flow: column;
+		}
 		#header {
 			display: flex;
 			justify-content: space-between;
@@ -34,22 +40,21 @@
 		.links {
 			height: 30px;
 			margin: 20px 15px;
+			border-radius: 10px;
 			text-align: center;
 			padding: 10px 10px;
-			transition-property: height;
-			transition: transform;
-			transition-timing-function: ease-in;
+			transition: rotate 6s;
+			transition-timing-function: linear;
+			box-shadow: 10px 15px 5px #d1ebf2;
+
 		}
 		.links a {
 			font-size: 17pt;
 			text-decoration: none;
 		}
 		.links:hover {
-			height: 50px;
-			border-radius: 10px;
 			background-color: #ffe3d6;
-			display: flex;
-			align-items: center;
+			transform: rotate(-10deg);
 		}
 	</style>
 </head>
