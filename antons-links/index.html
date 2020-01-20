@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anton's links</title>
+	<style type="text/css">
+		#header {
+			display: flex;
+			justify-content: space-between;
+			width: 800px;
+			margin:  10px 40px 0;
+			background-color: #ffd6e5;
+		}
+		.itemHeader {
+			text-align: center;
+			width: 220px;
+			margin: 0 20px;
+		}
+		.itemHeader h1 {
+			width: 200px;
+		}
+		.itemHeader img {
+			width: 50%;
+			margin: 10px;
+		}
+		#container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 800px;
+			height: 400px;
+			margin:  0 40px;
+			background-color: #d7f5ff;
+		}
+		.links {
+			height: 30px;
+			margin: 20px 15px;
+			text-align: center;
+			padding: 10px 10px;
+			transition-property: height;
+			transition: transform;
+			transition-timing-function: ease-in;
+		}
+		.links a {
+			font-size: 17pt;
+			text-decoration: none;
+		}
+		.links:hover {
+			height: 50px;
+			border-radius: 10px;
+			background-color: #ffe3d6;
+			display: flex;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div class="itemHeader">
+			<h1>My work links</h1>
+		</div>
+		<div class="itemHeader">
+			<p>With support of</p>
+			<img src="logo.png" alt="logo">
+		</div>
+	</div>
+	<div id="container">
+		<div class="links">
+			<a href="https://www.w3schools.com/default.asp">w3schools.com</a>
+		</div>
+		<div class="links">
+			<a href="https://github.com/">github.com</a>
+		</div>
+		<div class="links">
+			<a href="https://fonts.google.com/">fonts</a>
+		</div>
+		<div class="links">
+			<a href="https://htmlcheatsheet.com/">html-cheatsheet</a>
+		</div>
+	</div>
+
+</body>
+</html>
